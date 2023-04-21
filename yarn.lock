@@ -2039,13 +2039,6 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@rrweb/types@^2.0.0-alpha.5":
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@rrweb/types/-/types-2.0.0-alpha.5.tgz#e1e331395eb4ded66df86a78ace48eba8dfcbf4c"
-  integrity sha512-CW9TVyeaCSa3jsbc8nEDSNM3LsNTeQt+aRSmBj/GxFFC7AjGFNmZ4EcOZFv17hvSi4UsetUeoxWUzzV6uOiYwQ==
-  dependencies:
-    rrweb-snapshot "^2.0.0-alpha.5"
-
 "@rushstack/node-core-library@3.55.2", "@rushstack/node-core-library@^3.53.2":
   version "3.55.2"
   resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.55.2.tgz#d951470bac98171de13a8a351d4537c63fbfd0b6"
@@ -8956,32 +8949,6 @@ rollup@^3.10.0:
   integrity sha512-J8C6VfEBjkvYPESMQYxKHxNOh4A5a3FlP+0BETGo34HEcE4eTlgCrO2+eWzlu2a/sHs2QUkZco+wscH7jhhgWg==
   optionalDependencies:
     fsevents "~2.3.2"
-
-rrdom@^2.0.0-alpha.5:
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/rrdom/-/rrdom-2.0.0-alpha.5.tgz#0317ccde6cdbb080913fc39f8f3ffe46a65fd733"
-  integrity sha512-PG3HeIKFDBA0fruYxE7mLhusy6tzemREvaZQkiaJv7RG1q6V3IzwYLZG1cv4PB4jEqJU9zIXw6xdguRpQyZBFQ==
-  dependencies:
-    rrweb-snapshot "^2.0.0-alpha.5"
-
-rrweb-snapshot@^2.0.0-alpha.5:
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/rrweb-snapshot/-/rrweb-snapshot-2.0.0-alpha.5.tgz#81a47b3550c04b1b7b6c0e769bfcdb623a1ef757"
-  integrity sha512-zVMSitLyFN6BNI1FFNvF+XY+t4t9jnTq46s2UinpaBEOgdnvVXgvEJkda1hj/eU5vWQaNGU67QzDMiHtGZSSPQ==
-
-rrweb@^2.0.0-alpha.5:
-  version "2.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/rrweb/-/rrweb-2.0.0-alpha.5.tgz#84b5e847403ff0b915aacea8833ccece12bc2f51"
-  integrity sha512-YY+kBc9GJV/HTSsDej5hYSK4RWWH3QttwGWUtSAX2v8JDrVztoYlcBE9/YQRbatlGE0sVEL1AJzXMA9xs/U9hQ==
-  dependencies:
-    "@rrweb/types" "^2.0.0-alpha.5"
-    "@types/css-font-loading-module" "0.0.7"
-    "@xstate/fsm" "^1.4.0"
-    base64-arraybuffer "^1.0.1"
-    fflate "^0.4.4"
-    mitt "^3.0.0"
-    rrdom "^2.0.0-alpha.5"
-    rrweb-snapshot "^2.0.0-alpha.5"
 
 rtcpeerconnection-shim@^1.2.15:
   version "1.2.15"
